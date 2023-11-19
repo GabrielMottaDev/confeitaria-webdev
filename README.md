@@ -1,7 +1,7 @@
-# 🍰 Confeitaria
+# 🍰Confeitaria
 Projeto de faculdade feito para o trabalho de Desenvolvimento Web.
 
-## 📃 Instruções
+## 📃Instruções
 * Necessário php & mysql
 * [Configure o banco de dados][database]
 
