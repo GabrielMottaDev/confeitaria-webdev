@@ -1,0 +1,133 @@
+.consult-order {
+    padding: 20px 0px;
+}
+
+.consult-order>h3 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.6em;
+    margin-bottom: 1.2rem;
+}
+
+.g-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.g-contato>form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+/**/
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.g-contato label {
+    color: black;
+}
+
+.g-contato input {
+    border: none;
+    box-shadow: inset 0.1px 0.1px 0px 1px rgba(0, 0, 0, 0.39);
+    padding: 7px 6px;
+    border-radius: 0px;
+    font-size: 1.05em;
+    background: #fdfdfd;
+}
+
+.g-contato select {
+    border: none;
+    box-shadow: inset 0.1px 0.1px 0px 1px rgba(0, 0, 0, 0.39);
+    padding: 7px 6px;
+    border-radius: 0px;
+    font-size: 1.05em;
+    background: #fdfdfd;
+}
+
+.g-contato textarea {
+    resize: none;
+    border: none;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.39);
+    padding: 7px 6px;
+    border-radius: 0px;
+    font-size: 1.05em;
+    background: #fdfdfd;
+}
+
+.g-contato button {
+    border: none;
+    padding: 7px 6px;
+    font-size: 1.05em;
+    background: #900;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+/**/
+
+.g-message {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.g-message>label {
+    margin-bottom: 6px;
+}
+
+.g-button {
+    display: flex !important;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.g-button > button {
+    padding: 10px 25px;
+}
+
+.consult-order-fields {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    flex-grow: 1;
+}
+
+.consult-order-fields>div {
+    display: inline-grid;
+    grid-template-columns: auto 85%;
+    margin-bottom: 9px;
+}
+
+.consult-order-fields>div>input,
+.consult-order-fields>div>select {
+    margin-left: 20px;
+}
+
+.consult-order-info h4 {
+    font-weight: normal;
+    font-size: 1.2em;
+    margin-bottom: 0.8rem;
+    color: #990000;
+}
+
+.consult-order-info p {
+    font-weight: normal;
+    font-size: 0.95em;
+    color: #777;
+}
+
+@media (max-width: 600px) {
+    .consult-order-fields > div {
+        grid-template-columns: auto 75%;
+    }
+}
